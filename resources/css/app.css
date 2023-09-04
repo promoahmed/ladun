@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "SuisseIntl-Regular";
+    src: url("../fonts/SuisseIntl-Regular.ttf");
+  }
+
+@layer base {
+
+    body {
+        @apply bg-lightest-brown;
+        /* @apply font-suisseIntl; */
+    }
+    h1 {
+        @apply text-3xl ;
+    }
+    h2 {
+        @apply text-2xl ;
+    }
+    h3 {
+        @apply text-xl;
+    }
+    /*p {*/
+    /*    @apply text-xs;  comment by amr saleh do not override p please use it so much */
+    /*}*/
+}
